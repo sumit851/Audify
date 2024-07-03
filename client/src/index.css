@@ -24,3 +24,34 @@ body {
   border-radius: 6px;
   height: 50px;
 }
+
+button {
+  padding: 5px;
+  background-color: aqua;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 10px;
+}
+.logo-spin {
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh; /* Adjust height as needed */
+}
